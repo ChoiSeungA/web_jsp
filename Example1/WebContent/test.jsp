@@ -1,16 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
 <body>
 <%
 	String fname = request.getParameter("fname");
 	String lname = request.getParameter("lname");
-	out.print("¾È³çÇÏ¼¼¿ä "+fname+lname+" ´Ô! :D");
+	out.print("ì•ˆë…•í•˜ì„¸ìš” "+fname+lname+" ë‹˜! :D");
 %>
 
 </body>
